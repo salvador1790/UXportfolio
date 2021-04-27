@@ -1,0 +1,73 @@
+nav{
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 90px;
+}
+
+.navCont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    word-spacing: 50px;
+    margin-top: 30px;
+}
+
+.navLinks a{
+    font-family: 'Spartan', sans-serif;
+    text-decoration: none;
+    color: #E0E0E0;
+    transition: .5s ease-in-out;
+}
+
+.active{
+    color: black !important;
+}
+
+.hover:hover{
+    color: #ac00ce;
+}
+
+#logo{
+    width: 160px;
+    height: 160px;
+}
+
+.introduction{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.introContent{
+    font-family: 'Spartan', sans-serif;
+    text-shadow: 10px 10px 8px #888888;
+}
+
+.aboutContent{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Spartan', sans-serif;
+}
+
+#myPic{
+    height: 500px;
+    width: 371px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutPara{
+    margin-left: 30px;
+}
+
+.aboutPara p{
+    font-size: 14px;
+    width: 290px;
+}
